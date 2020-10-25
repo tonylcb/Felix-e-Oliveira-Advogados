@@ -1,0 +1,27 @@
+#articles-and-news {
+    margin: 40px 100px;
+}
+#articles-and-news .title {
+    font-size: 3rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-variant: small-caps;
+    color: dimgray; 
+    letter-spacing: 2px;
+}
+
+#container-pictures {
+    display: flex;
+    flex-flow: row nowrap;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: stretch;
+}
+#container-pictures figure {
+    align-content: stretch;
+    width: auto;
+    height: auto;
+    margin: 0px;
+    position: relative;
+    
+}
