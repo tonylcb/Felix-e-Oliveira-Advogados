@@ -33,6 +33,7 @@ header {
     display: flex;
     flex-flow: column nowrap;  
     /* border: 1px solid green; */
+    box-sizing: border-box;
 }
 
 .icons {
@@ -54,21 +55,32 @@ header {
     flex-flow: row nowrap;
     justify-content: flex-end;
     /* border: 1px solid orange; */
-    flex-grow: 1;
+    /* align-items: flex-end; */
+    align-content: flex-end;
 }
 
-.menu a {
+ul {
+   margin: 10px 0px;
+}
+
+li {
+    list-style-type: none;
+    /* border: 1px solid red; */
+    text-align: center;
+    padding-left: 8px;
+    padding-top: 10px;
+}
+
+.menu li a {
     font-size: .9rem;
     font-family: "Lato", sans-serif;
     font-weight: bold;
     color: dimgray; 
     letter-spacing: 1.7px;
     text-decoration: none;
-    padding: 4px;
-    margin-left: 15px;
-    margin-top: 18px;  
+    padding: 4px;    
     text-align: center; 
-    box-sizing: border-box; 
+    /* box-sizing: border-box;  */
     /* border: 1px solid red; */
 }
 
