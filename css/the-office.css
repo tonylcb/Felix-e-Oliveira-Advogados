@@ -1,0 +1,50 @@
+.container-the-office {
+    display: flex;
+    /* border: 1px solid red;    */
+    align-items: center;
+    /* flex-grow: 1; */
+}
+
+.title-the-office {
+    width: 48%;
+    order: 1;
+    font-size: 3rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-variant: small-caps;
+    color: dimgray; 
+    letter-spacing: 2px;
+    /* border: 1px solid red; */
+    /* position: absolute; */
+}
+
+.arrowdown {
+    order: 1;
+    width: 52%;
+    /* border: 1px solid red; */
+
+    
+}
+
+.arrow-down {
+    /* position: relative; */
+    /* float: right; */
+    /* text-align: center; */
+    /* padding-left: 320px; */
+    border: 2px solid #be80a0;
+    width: 30px;
+    padding: 6px;
+    border-radius: 50%;
+    /* bottom: 40px;
+    left: 650px; */
+}
+
+.arrow-down:hover {
+
+    background: rgb(220, 220, 220);
+}
+
+
+
+
+

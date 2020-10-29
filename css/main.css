@@ -9,22 +9,28 @@ header {
     margin: 0px;
     padding-top: 6px;
     border: 0px;
+    max-height: 107px;
 }
 
 #container-header {
     display: flex;
     flex-flow: row nowrap;
     border: 0px;
-    border-bottom: 1px solid rgb(196, 196, 196);
+    /* border-bottom: 1px solid rgb(196, 196, 196); */
+    box-shadow: 0px 3px 7px rgb(204, 204, 204);
 }
 
 .logo {
     margin-left: 50px;
     width: 50%; 
+    /* max-width: 50%; */
     /* border: 1px solid blue; */
+    box-sizing: border-box;
+    padding-top: 5 px;
 }
 .logoimg {
-    width: 400px;
+    width: auto;
+    max-width: 380px;
 }
 
 .icons-and-menu {
@@ -32,12 +38,14 @@ header {
     margin-right: 50px;
     display: flex;
     flex-flow: column nowrap;  
-    /* border: 1px solid green; */
-    box-sizing: border-box;
+    /* border: 3px solid green; */
+    /* box-sizing: border-box; */
+    /* align-items: baseline; */
 }
 
 .icons {
-    height: 50%;
+    /* height: 100%; */
+    width: 100%;
     /* border: 1px solid red; */
     display: flex;
     justify-content: flex-end;
@@ -45,41 +53,46 @@ header {
 
 .fb-icon, .inst-icon, .whts-icon {
     width: 35px;   
-    margin: 4px;
-    padding-top: 2px;
+    margin-left: 10px;
+    padding-top: 7px;
+    /* border: 1px solid red; */
 }
 
 .menu {
-    height: 50%;
+    /* height: 100%; */
+    /* width: 100%; */
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
+    /* flex-grow: 1; */
+    padding: 0px;
     /* border: 1px solid orange; */
-    /* align-items: flex-end; */
-    align-content: flex-end;
+    margin-top: 22px;
+    margin-bottom: 0px;
 }
 
-ul {
-   margin: 10px 0px;
-}
-
-li {
+.menu li {
     list-style-type: none;
-    /* border: 1px solid red; */
-    text-align: center;
-    padding-left: 8px;
-    padding-top: 10px;
 }
 
 .menu li a {
-    font-size: .9rem;
+    /* border: 1px solid red; */
+    font-size: 1.1vw;
     font-family: "Lato", sans-serif;
     font-weight: bold;
     color: dimgray; 
     letter-spacing: 1.7px;
-    text-decoration: none;
-    padding: 4px;    
-    text-align: center; 
+    text-decoration: none;    
+    /* text-align: center;  */
+    white-space: nowrap;
+    padding: 10px;
+    /* box-sizing: border-box; */
+}
+
+.menu li a {
+    
+    /* max-width: auto; */
+
     /* box-sizing: border-box;  */
     /* border: 1px solid red; */
 }
