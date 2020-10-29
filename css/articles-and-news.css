@@ -4,9 +4,10 @@ main {
     border: 0px;
 }
 
-#articles-and-news {
-    display: flex;
-    flex-flow: column wrap;
+.articles-and-news {
+    margin-top: 140px;
+    /* display: flex;
+    flex-flow: column wrap; */
     /* border: 1px solid red; */
 }
 
