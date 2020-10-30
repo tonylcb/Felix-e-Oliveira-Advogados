@@ -11,6 +11,7 @@ header {
     border: 0px;
     max-height: 107px;
     position: fixed;
+    z-index: 1;
     left: 0;
     top: 0;
     width: 100%;
@@ -35,9 +36,9 @@ header {
     /* border: 1px solid blue; */
     box-sizing: border-box;
     padding-top: 5 px;
-    position: fixed;
-
+    /* position: fixed; */
 }
+
 .logoimg {
     width: auto;
     max-width: 380px;
@@ -48,7 +49,7 @@ header {
     margin-right: 50px;
     display: flex;
     flex-flow: column nowrap;  
-    position: fixed;
+    /* position: fixed; */
     right: 0;
     /* border: 3px solid green; */
     /* box-sizing: border-box; */
@@ -99,14 +100,6 @@ header {
     white-space: nowrap;
     padding: 10px;
     /* box-sizing: border-box; */
-}
-
-.menu li a {
-    
-    /* max-width: auto; */
-
-    /* box-sizing: border-box;  */
-    /* border: 1px solid red; */
 }
 
 .menu a:hover {
