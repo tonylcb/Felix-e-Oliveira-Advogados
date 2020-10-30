@@ -5,7 +5,7 @@ main {
 }
 
 .articles-and-news {
-    margin-top: 140px;
+    margin-top: 130px;
     /* display: flex;
     flex-flow: column wrap; */
     /* border: 1px solid red; */
@@ -63,7 +63,7 @@ picture h2 {
 .more-aan {
     text-align: center;
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     
 }
 

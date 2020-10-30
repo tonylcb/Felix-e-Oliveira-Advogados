@@ -1,0 +1,33 @@
+.container-footer {
+    background-color: dimgray;
+    height: 220px;
+    margin: 50px;
+}
+
+.container-footer nav {
+    /* text-align: center; */
+    margin: auto;
+    padding: 56px;
+    /* vertical-align: middle; */
+    width: 800px;
+    text-align: center;    
+}
+.container-footer nav a{
+    text-decoration: none;
+}
+.footer-text {
+    text-indent: 1.5em;
+    font-size: 1rem;
+    font-family: "Lato", sans-serif;
+    color: rgb(235, 235, 235); 
+    letter-spacing: 1.7px;
+    line-height: 1.5rem;
+}
+
+.insta-icon2, .whats-icon2 {
+    width: 19px;
+
+}
+.email-icon2 {
+    width: 23px;
+}
