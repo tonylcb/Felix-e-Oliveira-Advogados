@@ -6,7 +6,7 @@
 }
 
 .title-the-office {
-    width: 48.5%;
+    width: 48%;
     font-size: 3rem;
     font-family: "Josefin Sans", sans-serif;
     font-weight: 400;
@@ -20,12 +20,13 @@
 }
 
 .arrowdown {
-    width: 51.5%;
+    width: 52%;
     /* border: 1px solid red; */    
 }
 
 .arrowdown a {
     text-decoration: none;
+
 }
 
 .arrow-down {
@@ -35,8 +36,9 @@
     /* padding-left: 320px; */
     margin-top: 39.84px;
     border: 2px solid #be80a0;
-    width: 25px;
-    padding: 6px;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
     border-radius: 50%;
     /* bottom: 40px;
     left: 650px; */

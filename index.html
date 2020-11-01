@@ -14,7 +14,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet"/>
   </head>
   <body>
-
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <symbol id="arrow-down" viewBox="0 0 100 100">
+            <path d="M47.5,68.8L19.1,40.4c-0.7-0.7-1-1.5-1-2.5c0-1,0.3-1.8,1-2.5l3.2-3.2c0.7-0.7,1.5-1,2.5-1.1c1,0,1.8,0.3,2.5,1L50,54.7
+            L72.7,32c0.7-0.7,1.5-1,2.5-1c1,0.1,1.8,0.4,2.5,1.1l3.2,3.2c0.7,0.7,1,1.5,1,2.5c0,1-0.3,1.8-1,2.5L52.5,68.8
+            C51.8,69.6,51,70,50,70C49,70,48.2,69.6,47.5,68.8z"/>
+        </symbol>
+    </svg>
     <header id="container-header">
         
         <div class="logo">
@@ -70,7 +76,9 @@
             <div class="container-the-office">
                 <h1 class="title-the-office">O escritório</h1>
                 <div class="arrowdown">
-                    <a href="#"><img src="images/arrow-down.png" alt="ir para baixo" class="arrow-down"></a>
+                    <a href="#">
+                        <svg class="arrow-down"><use xlink:href="#arrow-down"></use></svg>
+                    </a>
                 </div>
             </div>
          
