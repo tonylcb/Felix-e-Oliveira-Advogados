@@ -7,13 +7,18 @@
 .container-footer nav {
     /* text-align: center; */
     margin: auto;
-    padding: 56px;
+    padding: 44.5px;
     /* vertical-align: middle; */
-    width: 800px;
+    width: 900px;
     text-align: center;    
 }
 .container-footer nav a{
     text-decoration: none;
+    display: inline-block;
+}
+
+.container-footer nav a:hover {
+    color: #be80a0;
 }
 .footer-text {
     text-indent: 1.5em;
@@ -22,12 +27,37 @@
     color: rgb(235, 235, 235); 
     letter-spacing: 1.7px;
     line-height: 1.5rem;
+    /* border: 1px solid red; */
+    /* vertical-align: middle; */
+    
+}
+.facebook, .email {
+    width: 26px;
+    height: 26px;
+    fill: rgb(235, 235, 235);
+    /* border: 1px solid red; */
+    vertical-align: middle;
+    margin-bottom: 5px;
 }
 
-.insta-icon2, .whats-icon2 {
-    width: 19px;
+.whatsapp, .instagram {
+    width: 24px;
+    height: 24px;
+    fill: rgb(235, 235, 235);
+    vertical-align: middle;
+    /* padding-bottom: 3px; */
+    margin-bottom: 5px;
+
+    /* border: 1px solid red; */
 
 }
-.email-icon2 {
-    width: 23px;
+
+.place-holder {
+    width: 29px;
+    height: 29px;
+    fill: rgb(235, 235, 235);
+    stroke: rgb(235, 235, 235);
+    stroke-width: 1%;
+    vertical-align: middle;
+    margin-bottom: 7px;
 }
