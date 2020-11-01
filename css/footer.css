@@ -2,24 +2,19 @@
     background-color: dimgray;
     height: 220px;
     margin: 50px;
+    align-items: center;
 }
 
-.container-footer nav {
-    /* text-align: center; */
-    margin: auto;
-    padding: 44.5px;
-    /* vertical-align: middle; */
-    width: 900px;
-    text-align: center;    
-}
-.container-footer nav a{
-    text-decoration: none;
-    display: inline-block;
+.footer-texts {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    padding: 45px;
+    box-sizing: border-box;
 }
 
-.container-footer nav a:hover {
-    color: #be80a0;
-}
 .footer-text {
     text-indent: 1.5em;
     font-size: 1rem;
@@ -27,17 +22,21 @@
     color: rgb(235, 235, 235); 
     letter-spacing: 1.7px;
     line-height: 1.5rem;
-    /* border: 1px solid red; */
-    /* vertical-align: middle; */
-    
+    text-decoration: none;
+    display: inline-block;
 }
+
+.footer-text:hover {
+    color: #be80a0;
+}
+
 .facebook, .email {
     width: 26px;
     height: 26px;
     fill: rgb(235, 235, 235);
     /* border: 1px solid red; */
     vertical-align: middle;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
 .whatsapp, .instagram {
@@ -46,7 +45,7 @@
     fill: rgb(235, 235, 235);
     vertical-align: middle;
     /* padding-bottom: 3px; */
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 
     /* border: 1px solid red; */
 
