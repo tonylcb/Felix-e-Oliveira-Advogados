@@ -1,0 +1,42 @@
+.institutional {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+
+.title-subtopic {
+    font-size: 2rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-variant: small-caps;
+    color: #be80a0; 
+    letter-spacing: 2px;
+    margin: 0px 0px 10px 25px;
+}
+
+.institutional div {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 52%;
+}
+
+.inst-text {
+    text-indent: 3em; 
+    font-size: 1.1rem;
+    font-family: "Lato", sans-serif;
+    color: dimgray; 
+    letter-spacing: 1.7px;
+    line-height: 1.7rem;
+    text-align: justify;
+    margin: 0px;
+}
+
+.institutional img {
+    box-shadow: -15px 15px #dac0d0;
+    width: 48%;
+    max-width: 550px;
+    height: 100%;
+    /* padding: 10px; */
+}

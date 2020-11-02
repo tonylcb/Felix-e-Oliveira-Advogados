@@ -1,0 +1,18 @@
+
+.felixadv-map {
+    text-align: center;
+}
+
+.location-text {
+    font-size: 1.1rem;
+    font-family: "Lato", sans-serif;
+    color: dimgray; 
+    letter-spacing: 1.7px;
+    line-height: 1.7rem;
+    text-align: center;
+}
+
+.img-map {
+    border: 1px solid #be80a0;
+    border-radius: 30px;
+}

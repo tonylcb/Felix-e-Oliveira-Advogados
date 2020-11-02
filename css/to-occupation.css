@@ -1,0 +1,105 @@
+.subtitle-occupation {
+    display: flex;
+    /* border: 1px solid red; */
+    align-items: center;
+    margin-top: 20px; 
+    margin-bottom: 13px;   
+}
+
+.subtitle-occupation h2 {
+    /* border: 1px solid red; */
+    font-size: 2rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-variant: small-caps;
+    color: #be80a0; 
+    letter-spacing: 2px;
+    margin: 0px;
+    text-indent: 1.5em; 
+    width: 50%;
+}
+
+.arrowdown2 {
+    width: 53.3%;
+    /* border: 1px solid red; */
+    /* padding-bottom: 20px; */
+}
+.arrow-down2 {
+    /* margin-bottom: 10px; */
+    fill: dimgray;
+    border: 2px solid #be80a0;
+    width: 30px;
+    height: 30px;
+    padding: 3.5px;
+    border-radius: 50%;
+}
+
+.occupation-area-icons {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.occupation-area-icons .line1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.occupation-area-icons .line2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.occupation-area-icons .group-icon{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.oc-icon {
+    border: 3px solid #be80a0;
+    width: 20vh;
+    height: 20vh;
+    max-width: 100%;
+    padding: 10px;
+    /* box-sizing: border-box; */
+    border-radius: 50%;
+    margin: 10px 60px 10px 60px;
+    fill: currentColor;
+}
+
+.oc-icon:hover {
+    background: rgb(220, 220, 220);
+    fill: currentColor;
+
+}
+
+.occupation-area-icons a {
+    text-decoration: none;   
+}
+
+.area-title {
+    font-size: 1rem;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    color: dimgray; 
+    letter-spacing: 1.7px;
+    width: 200px;
+    text-align: center;
+}
+
+.area-title:hover {
+    color: #be80a0;
+    
+}

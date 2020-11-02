@@ -1,0 +1,50 @@
+.subtitle-team {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.subtitle-team h2 {
+    font-size: 2rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-variant: small-caps;
+    color: #be80a0; 
+    letter-spacing: 2px;
+    margin: 0px;
+    text-indent: 1.5em; 
+    width: 50%;
+    /* border: 1px solid red; */
+}
+
+.container-team {
+    display: flex;
+    flex-flow: column wrap;
+    /* border: 2px solid green; */
+    /* justify-content: space-between; */
+}
+
+.container-team img {
+    max-height: 220px;
+    /* max-width: 100vw; */
+    /* margin: 0px 10px 20px 10px; */
+}
+
+.team-line1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid red;
+
+}
+
+.team-line2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid red;
+}
