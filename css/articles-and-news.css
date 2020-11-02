@@ -5,7 +5,7 @@ main {
 }
 
 .articles-and-news {
-    margin-top: 130px;
+    margin-top: 118px;
     /* display: flex;
     flex-flow: column wrap; */
     /* border: 1px solid red; */
@@ -68,6 +68,9 @@ picture h2 {
 }
 
 .more-aan a {
+    transition-property: all;
+    transition-duration: .35s;
+    transition-timing-function: ease;
     font-size: 1.1rem;
     font-family: "Lato", sans-serif;
     font-weight: bold;

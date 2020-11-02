@@ -33,7 +33,7 @@
 .facebook, .email {
     width: 26px;
     height: 26px;
-    fill: rgb(235, 235, 235);
+    fill: currentColor;
     /* border: 1px solid red; */
     vertical-align: middle;
     margin-bottom: 3px;
@@ -42,7 +42,7 @@
 .whatsapp, .instagram {
     width: 24px;
     height: 24px;
-    fill: rgb(235, 235, 235);
+    fill: currentColor;
     vertical-align: middle;
     /* padding-bottom: 3px; */
     margin-bottom: 3px;
@@ -54,9 +54,10 @@
 .place-holder {
     width: 29px;
     height: 29px;
-    fill: rgb(235, 235, 235);
+    fill: currentColor;
     stroke: rgb(235, 235, 235);
     stroke-width: 1%;
+    stroke: currentColor;
     vertical-align: middle;
     margin-bottom: 7px;
 }

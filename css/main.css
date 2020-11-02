@@ -68,7 +68,7 @@ header {
     width: 32px;   
     margin-left: 10px;
     padding-top: 5px;
-    /* border: 1px solid red; */
+
 }
 
 .menu {
@@ -103,5 +103,8 @@ header {
 }
 
 .menu a:hover {
+    transition-property: all;
+    transition-duration: .7s;
+    transition-timing-function: ease;
     color: #be80a0;
 }
