@@ -27,6 +27,9 @@
 }
 
 .footer-text:hover {
+    transition-property: all;
+    transition-duration: .35s;
+    transition-timing-function: ease;
     color: #be80a0;
 }
 
@@ -51,7 +54,7 @@
 
 }
 
-.place-holder {
+.place-holder { 
     width: 29px;
     height: 29px;
     fill: currentColor;

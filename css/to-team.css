@@ -1,7 +1,8 @@
 .subtitle-team {
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .subtitle-team h2 {
@@ -12,7 +13,7 @@
     color: #be80a0; 
     letter-spacing: 2px;
     margin: 0px;
-    text-indent: 1.5em; 
+    text-indent: 1em; 
     width: 50%;
     /* border: 1px solid red; */
 }
@@ -25,26 +26,26 @@
 }
 
 .container-team img {
-    max-height: 220px;
+    max-height: 210px;
     /* max-width: 100vw; */
-    /* margin: 0px 10px 20px 10px; */
+    margin: 5px 5px 5px 5px;
 }
 
 .team-line1 {
     display: flex;
-    justify-content: center;
-    width: 100%;
+    justify-content: space-around;
+    width: 53%;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 
 .team-line2 {
     display: flex;
-    justify-content: center;
-    width: 100%;
+    justify-content: space-around;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }

@@ -60,27 +60,6 @@ picture h2 {
     letter-spacing: 2px;
 }
 
-.more-aan {
-    text-align: center;
-    margin-top: 25px;
-    margin-bottom: 15px;
-    
-}
-
-.more-aan a {
-    transition-property: all;
-    transition-duration: .35s;
-    transition-timing-function: ease;
-    font-size: 1.1rem;
-    font-family: "Lato", sans-serif;
-    font-weight: bold;
-    color: dimgray; 
-    letter-spacing: 1.7px;
-    text-decoration: none;
-    padding: 5px 20px;
-    border: 2px solid #be80a0;
-}
-
 .more-aan a:hover {
     color: #be80a0;
     background: rgb(220, 220, 220);

@@ -3,7 +3,7 @@
     /* border: 1px solid red; */
     align-items: center;
     margin-top: 20px; 
-    margin-bottom: 13px;   
+    margin-bottom: 18px;   
 }
 
 .subtitle-occupation h2 {
@@ -15,7 +15,7 @@
     color: #be80a0; 
     letter-spacing: 2px;
     margin: 0px;
-    text-indent: 1.5em; 
+    text-indent: 1em; 
     width: 50%;
 }
 
@@ -23,15 +23,6 @@
     width: 53.3%;
     /* border: 1px solid red; */
     /* padding-bottom: 20px; */
-}
-.arrow-down2 {
-    /* margin-bottom: 10px; */
-    fill: dimgray;
-    border: 2px solid #be80a0;
-    width: 30px;
-    height: 30px;
-    padding: 3.5px;
-    border-radius: 50%;
 }
 
 .occupation-area-icons {
@@ -69,8 +60,8 @@
 
 .oc-icon {
     border: 3px solid #be80a0;
-    width: 20vh;
-    height: 20vh;
+    width: 120px;
+    height: 120;
     max-width: 100%;
     padding: 10px;
     /* box-sizing: border-box; */

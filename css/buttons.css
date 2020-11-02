@@ -1,0 +1,38 @@
+.more-aan {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    
+}
+
+.more-aan a {
+    transition-property: all;
+    transition-duration: .35s;
+    transition-timing-function: ease;
+    font-size: 1.1rem;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    color: dimgray; 
+    letter-spacing: 1.7px;
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 2px solid #be80a0;
+}
+
+.arrow-down2 {
+    /* margin-bottom: 10px; */
+    fill: dimgray;
+    border: 2px solid #be80a0;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+.arrow-down2:hover {
+    transition-property: all;
+    transition-duration: .35s;
+    transition-timing-function: ease;
+    fill: #be80a0;
+    background: rgb(220, 220, 220);
+}

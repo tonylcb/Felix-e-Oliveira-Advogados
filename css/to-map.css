@@ -1,3 +1,22 @@
+.subtitle-map {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.subtitle-map h2 {
+    font-size: 2rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-variant: small-caps;
+    color: #be80a0; 
+    letter-spacing: 2px;
+    margin: 0px;
+    text-indent: 1em; 
+    width: 50%;
+    /* border: 1px solid red; */
+}
+
 
 .felixadv-map {
     text-align: center;

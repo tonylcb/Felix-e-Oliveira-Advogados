@@ -19,34 +19,6 @@
     /* border: 1px solid red; */
 }
 
-.arrowdown {
-    width: 53.3%;
-    /* border: 1px solid red;     */
-}
-
-.arrowdown a {
-    text-decoration: none;
-
-}
-
-.arrow-down {
-    fill: dimgray;
-    border: 2px solid #be80a0;
-    width: 30px;
-    height: 30px;
-    padding: 3.5px;
-    border-radius: 50%;
-}
-
-.arrow-down:hover {
-    fill: #be80a0;
-}
-
-.arrow-down:hover {
-
-    background: rgb(220, 220, 220);
-}
-
 .default-text {
     text-indent: 1.5em;
     font-size: 1.1rem;

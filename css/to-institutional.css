@@ -5,7 +5,6 @@
     /* border: 1px solid red; */
 }
 
-
 .title-subtopic {
     font-size: 2rem;
     font-family: "Josefin Sans", sans-serif;
@@ -13,7 +12,9 @@
     font-variant: small-caps;
     color: #be80a0; 
     letter-spacing: 2px;
-    margin: 0px 0px 10px 25px;
+    margin: 0px 0px 10px 0px;
+    /* border: 1px solid red; */
+    text-indent: 1em;
 }
 
 .institutional div {
