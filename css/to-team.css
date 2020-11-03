@@ -3,9 +3,11 @@
     align-items: center;
     margin-top: 30px;
     margin-bottom: 10px;
+    
 }
 
 .subtitle-team h2 {
+    
     font-size: 2rem;
     font-family: "Josefin Sans", sans-serif;
     font-weight: 400;
@@ -15,12 +17,21 @@
     margin: 0px;
     text-indent: 1em; 
     width: 50%;
+
     /* border: 1px solid red; */
+}
+
+.subtitle-team h2 span {    
+    /* border: 1px solid red; */
+    padding-right: 30px;
+    padding-bottom: 10px; 
+    background: linear-gradient(to top, #dac0d0 0%, #dac0d0 60%, transparent 60%, transparent 100%), linear-gradient(to right, transparent 0%, transparent 30%);
 }
 
 .container-team {
     display: flex;
     flex-flow: column wrap;
+    background: linear-gradient(to top, transparent 0%, transparent 33.3%, #59344B 33.3%, #59344B 66.6%, transparent 66.6%, transparent 100%)
     /* border: 2px solid green; */
     /* justify-content: space-between; */
 }
