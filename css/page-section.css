@@ -1,0 +1,48 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#section-inst {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    top: 490px;
+    opacity: 0;
+}
+
+#section-occ {
+    width: 100px;
+    height: 100px;
+    /* background: red; */
+    position: absolute;
+    top: 997px;
+    opacity: 0;
+}
+
+#section-team {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    top: 1502px;
+    opacity: 0;
+}
+
+#section-map {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    top: 2010px;
+    opacity: 0;
+}
+
+#section-footer {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    top: 2500px;
+    opacity: 0;
+}

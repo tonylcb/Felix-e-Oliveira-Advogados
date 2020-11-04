@@ -31,8 +31,7 @@
     <link rel="stylesheet" href="./css/to-team.css" />
     <link rel="stylesheet" href="./css/to-map.css" />
     <link rel="stylesheet" href="./css/buttons.css" />
-
-
+    <link rel="stylesheet" href="./css/page-section.css" />
 
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Lato:wght@300;400&display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet"/>
@@ -125,22 +124,19 @@
             <div class="articles-and-news">
                 <h1 class="title">Artigos e notícias</h1>
             </div>
-            <div class="pictures">
-                <picture>
-                    <source>
-                    <img src="pictures/teacherfile.jpg" alt="professora" class="img1">
-                        <h2>Aprovado novo FUNDEB</h2>    
-                </picture>
-                <picture>
-                    <source>
-                    <img src="pictures/servidores vitoria.jpg" alt="servidores de vitória" class="img2">
-                        <h2>Suspensão dos descontos das contribuições associativas</h2>
-                </picture>
-                <picture>
-                    <source>
-                    <img src="pictures/apos.jpg" alt="aposentados" class="img3">
-                        <h2>Julgado Tema 942 do STF - Aposentadoria Especial</h2>                        
-                </picture>
+            <div id="container-pictures">
+                <div class="first-notice">
+                    <img src="pictures/teacherfile.jpg" alt="Noticia" class="img-notice1">
+                    <div class="notice-title1">Aprovado novo FUNDEB</div>
+                </div>
+                <div class="second-notice">
+                    <img src="pictures/servidores vitoria.jpg" alt="Noticia" class="img-notice2">
+                    <div class="notice-title2">Suspensão dos descontos das contribuições associativas</div>
+                </div>
+                <div class="third-notice">
+                    <img src="pictures/apos.jpg" alt="Noticia" class="img-notice3">
+                    <div class="notice-title3">Julgado Tema 942 do STF - Aposentadoria Especial</div>
+                </div>
             </div>
             <div class="more-aan">
                 <a href="#">ACESSE A ABA COMPLETA</a>
@@ -151,14 +147,14 @@
             <div class="container-the-office">
                 <h1>O escritório</h1>
                 <div class="arrowdown2">
-                    <a href="#">
+                    <a href="#section-inst">
                         <svg class="arrow-down2"><use xlink:href="#arrow-down"></use></svg>
                     </a>
                 </div>
             </div>
-         
+
+            <div id="section-inst"></div>
             <div class="subtopic">
-                
                 <div class="institutional">
                     <div>
                         <h2 class="title-subtopic">Institucional</h2>                    
@@ -171,12 +167,13 @@
                 
                 
             </div>
-            
+
+            <div id="section-occ"></div>            
             <div>
-                <div class="subtitle-occupation">
+                <div id="teste" class="subtitle-occupation">
                     <h2>Áreas de atuação</h2>
                     <div class="arrowdown2">
-                        <a href="#">
+                        <a href="#section-occ">
                             <svg class="arrow-down2"><use xlink:href="#arrow-down"></use></svg>
                         </a>
                     </div>
@@ -186,83 +183,160 @@
                 <div class="occupation-area-icons">
                     <div class="line1">
                         <div class="group-icon">
-                            <img src="images/publico.svg" class="oc-icon" alt="Direito Público">
+                            <a href="#"><img src="images/publico.svg" class="oc-icon" alt="Direito Público"></a>
                             <a href="#" class="area-title">DIREITO PÚBLICO</a>
+                            <!-- <a href="#" class="occ-more">Saiba mais</a> -->
                         </div>             
                         <div class="group-icon">
-                            <img src="images/sindical.svg" class="oc-icon" alt="Direito Sindical">
-                            <a href="#" class="area-title">DIREITO SINDICAL</a> 
+                            <a href="#"><img src="images/sindical.svg" class="oc-icon" alt="Direito Sindical"></a>
+                            <a href="#" class="area-title">DIREITO SINDICAL</a>
+                            <!-- <a href="#" class="occ-more">Saiba mais</a> -->
                         </div>
                         <div class="group-icon">
-                            <img src="images/civil.svg" class="oc-icon" alt="Direito Civil">
+                            <a href="#"><img src="images/civil.svg" class="oc-icon" alt="Direito Civil"></a>
                             <a href="#" class="area-title">DIREITO CIVIL</a>
+                            <!-- <a href="#" class="occ-more">Saiba mais</a> -->
                         </div> 
                     </div>
                     <div class="line2">
                         <div class="group-icon">
-                            <img src="images/extrajudicial.svg" class="oc-icon" alt="Extrajudicial">
+                            <a href="#"><img src="images/extrajudicial.svg" class="oc-icon" alt="Extrajudicial"></a>
                             <a href="#" class="area-title">EXTRAJUDICIAL</a>
+                            <!-- <a href="#" class="occ-more">Saiba mais</a> -->
                         </div>
                         <div class="group-icon">
-                            <img src="images/consultoria.svg" class="oc-icon" alt="Consultoria jurídico-política">
+                            <a href="#"><img src="images/consultoria.svg" class="oc-icon" alt="Consultoria jurídico-política"></a>
                             <a href="#" class="area-title">CONSULTORIA JURÍDICO-POLÍTICA</a>
+                            <!-- <a href="#" class="occ-more">Saiba mais</a> -->
                         </div> 
                         <div class="group-icon">
-                            <img src="images/sucessao.svg" class="oc-icon" alt="Direito sucessório">
+                            <a href="#"><img src="images/sucessao.svg" class="oc-icon" alt="Direito sucessório"></a>
                             <a href="#" class="area-title">DIREITO SUCESSÓRIO</a>
+                            <!-- <a href="#" class="occ-more">Saiba mais</a> -->
                         </div>
-                    </div>
+                    </div>                    
                     
-                    
+            <div id="section-team"></div>
                 </div>
             </div>
 
             <section class="team">
-                <div class="subtitle-team">
-                    <h2><span>Equipe</span></h2>
+                <div class="subtitle-team">            
+                    <h2>Equipe</h2>
                     <div class="arrowdown2">
-                        <a href="#">
+                        <a href="#section-team">
                             <svg class="arrow-down2"><use xlink:href="#arrow-down"></use></svg>
                         </a>
                     </div>
                 </div>
                 
                 <div class="container-team">
+
                     <div class="team-line1">
-                        <img src="pictures/advogadoo.jpg" alt="adv1">
-                        <img src="pictures/chris.jpg" alt="adv2">
-                        <img src="pictures/mozao.jpg" alt="adv3">
+                        <div>
+                            <div class="container-adv">
+                                <img src="pictures/advogadoo.jpg" alt="adv1" class="adv-image">                              
+                                <div class="subtitle-hover">Aristides Félix Júnior<br>Advogado Sócio</div>
+                            </div>
+                            <div class="container-subtitle">
+                                <div class="adv-subtitle">Aristides</div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="container-adv">
+                                <img src="pictures/chris.jpg" alt="adv2" class="adv-image">
+                                <div class="subtitle-hover">Chris Oliveira<br>Advogada Sócia</div>
+                            </div>
+                            <div class="container-subtitle">
+                                <div class="adv-subtitle">Chris</div>
+                            </div>
+                        </div>   
+                        <div>
+                            <div class="container-adv">
+                                <img src="pictures/mozao.jpg" alt="adv3" class="adv-image">
+                                <div class="subtitle-hover">Clarissa Martins Félix<br>Advogada Sócia</div>
+                            </div> 
+                            <div class="container-subtitle">
+                                <div class="adv-subtitle">Clarissa</div>
+                            </div>     
+                        </div>                                             
+                                          
                     </div>
                     <div>
                         <div class="team-line2">
-                            <img src="pictures/fernanda.jpg" alt="adv4">
-                            <img src="pictures/elis.jpg" alt="adv5">
-                            <img src="pictures/mirelle.jpg" alt="adv6">
-                            <img src="pictures/novata.jpg" alt="adv7">
+                            <div>
+                                <div class="container-adv">
+                                    <img src="pictures/fernanda.jpg" alt="adv4" class="adv-image">
+                                    <div class="subtitle-hover">Fernanda Pereira Silva<br>Administrativo</div>                                
+                                </div>        
+                                <div class="container-subtitle">
+                                    <div class="adv-subtitle">Fernanda</div>
+                                </div>     
+                            </div>
+                            <div>
+                                <div class="container-adv">
+                                    <img src="pictures/elis.jpg" alt="adv5" class="adv-image">
+                                    <div class="subtitle-hover">Elis Martins Félix<br>Colaboradora</div>
+                                </div> 
+                                <div class="container-subtitle">
+                                    <div class="adv-subtitle">Elis</div>
+                                </div>
+                            </div>           
+                            <div>
+                                <div class="container-adv">
+                                    <img src="pictures/mirelle.jpg" alt="adv6" class="adv-image">
+                                    <div class="subtitle-hover">Mirelle Gama Alves<br>Colaboradora</div>
+                                </div> 
+                                <div class="container-subtitle">
+                                    <div class="adv-subtitle">Mirelle</div>
+                                </div>     
+                            </div>               
+                            <div>
+                                <div class="container-adv">
+                                    <img src="pictures/novata.jpg" alt="adv7" class="adv-image">
+                                    <div class="subtitle-hover">Joana Ferreira Salles<br>Colaboradora</div> 
+                                </div>                               
+                                <div class="container-subtitle">
+                                    <div class="adv-subtitle">Joana</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>    
             </section>                        
+            <section>
+            <div id="section-map"></div>
+                <div class="subtitle-map">
+                    <h2>Localização</h2>
+                    <div class="arrowdown2">
+                        <a href="#section-map">
+                            <svg class="arrow-down2"><use xlink:href="#arrow-down"></use></svg>
+                        </a>
+                    </div>
+                </div> 
+                    <p class="location-text">Rua Demócrito Cavalcante, n° 355, Livramento, Vitória de Santo Antão - PE | CEP 55602-420.</p>
+                    <div id="container-map">
+                        <div class="felixadv-map">
+                            <img class="img-map"src="pictures/felix-map.jpg" alt="Mapa">
+                        </div>
+                        <div class="googlemaps">
+                            <a href="#">ACESSE O GOOGLE MAPS</a>
+                        </div>
+                    </div>
 
-            <div class="subtitle-map">
-                <h2>Localização</h2>
-                <div class="arrowdown2">
-                    <a href="#">
-                        <svg class="arrow-down2"><use xlink:href="#arrow-down"></use></svg>
-                    </a>
-                </div>
-            </div> 
-                <p class="location-text">Rua Demócrito Cavalcante, n° 355, Livramento, Vitória de Santo Antão - PE | CEP 55602-420.</p>
-                <div class="felixadv-map">
-                    <img class="img-map"src="pictures/felix-map.jpg" alt="Mapa">
-                </div>
-                <div class="more-aan">
-                    <a href="#">GOOGLE MAPS</a>
-                </div>
+                    <div class="arrowdown3">
+                        <a href="#section-footer">
+                            <svg class="arrow-down2"><use xlink:href="#arrow-down"></use></svg>
+                        </a>
+                    </div>
+            </section>
+            
                
         </section> 
     </main>
+    <div id="section-footer"></div>
     <footer>
+        
         <div class="container-footer">
             <nav class="footer-texts">
                 <div>
@@ -277,7 +351,8 @@
                 
                 <div>
                     <a href="#" class="footer-text"><svg class="place-holder"><use xlink:href="#place-holder"></use></svg>Rua Demócrito Cavalcante, n° 355, Livramento, Vitória de Santo Antão - PE | CEP 55602-420</a>   
-                </div>       
+                </div> 
+                      
                             
             </nav>
         </div>

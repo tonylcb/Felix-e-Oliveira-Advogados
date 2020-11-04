@@ -17,6 +17,18 @@
     text-indent: 1em;
 }
 
+.institutional div h2:before {
+    content: '';
+    display: block;
+    background: linear-gradient(to top, #dac0d0 0%, #dac0d0 50%, transparent 50%, transparent 100%);
+    width: 300px;
+    height: 35px;
+    position: absolute;
+    /* border: 1px solid red; */
+    left: 95px;
+    z-index: -1;
+}
+
 .institutional div {
     display: flex;
     flex-flow: column nowrap;
@@ -35,7 +47,7 @@
 }
 
 .institutional img {
-    box-shadow: -15px 15px #dac0d0;
+    box-shadow: -15px 15px #BAA4B2;
     width: 48%;
     max-width: 550px;
     height: 100%;

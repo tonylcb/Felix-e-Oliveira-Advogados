@@ -6,6 +6,18 @@
     margin-bottom: 20px;
 }
 
+.container-the-office h1:before {
+    content: '';
+    display: block;
+    background: linear-gradient(to top, #BAA4B2 0%, #BAA4B2 38%, transparent 38%, transparent 100%);
+    width: 500px;
+    height: 45px;
+    position: absolute;
+    /* border: 1px solid red; */
+    left: 70px;
+    z-index: -1;
+}
+
 .container-the-office h1 {
     width: 50%;
     font-size: 3rem;

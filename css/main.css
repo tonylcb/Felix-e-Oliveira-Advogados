@@ -11,7 +11,7 @@ header {
     border: 0px;
     max-height: 107px;
     position: fixed;
-    z-index: 1;
+    z-index: 10;
     left: 0;
     top: 0;
     width: 100%;
@@ -40,6 +40,9 @@ header {
 }
 
 .logoimg {
+    transition-property: all;
+    transition-duration: .35s;
+    transition-timing-function: ease;
     width: auto;
     max-width: 320px;
 }
@@ -68,6 +71,9 @@ header {
     width: 32px;   
     margin-left: 10px;
     padding-top: 5px;
+    transition-property: all;
+    transition-duration: .35s;
+    transition-timing-function: ease;
 
 }
 
@@ -89,6 +95,9 @@ header {
 }
 
 .menu li a {
+    transition-property: all;
+    transition-duration: .6s;
+    transition-timing-function: ease;
     /* border: 1px solid red; */
     font-size: 1vw;
     font-family: "Lato", sans-serif;
@@ -103,8 +112,9 @@ header {
 }
 
 .menu a:hover {
-    transition-property: all;
-    transition-duration: .7s;
-    transition-timing-function: ease;
     color: #be80a0;
+}
+
+.fb-icon:hover, .inst-icon:hover, .whts-icon:hover, .logoimg:hover {
+    filter: brightness(115%);
 }

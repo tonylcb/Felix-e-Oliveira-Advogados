@@ -19,6 +19,18 @@
     width: 50%;
 }
 
+.subtitle-occupation h2:before {
+    content: '';
+    display: block;
+    background: linear-gradient(to top, #dac0d0 0%, #dac0d0 50%, transparent 50%, transparent 100%);
+    width: 300px;
+    height: 35px;
+    position: absolute;
+    /* border: 1px solid red; */
+    left: 95px;
+    z-index: -1;
+}
+
 .arrowdown2 {
     width: 53.3%;
     /* border: 1px solid red; */
@@ -30,7 +42,7 @@
     flex-flow: row wrap;
     justify-content: space-between;
     /* border: 1px solid red; */
-    max-width: 75%;
+    max-width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -59,6 +71,9 @@
 }
 
 .oc-icon {
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
     border: 3px solid #be80a0;
     width: 120px;
     height: 120;
@@ -72,15 +87,27 @@
 
 .oc-icon:hover {
     background: rgb(220, 220, 220);
-    fill: currentColor;
-
+    /* filter: blur(2px); */
 }
 
-.occupation-area-icons a {
-    text-decoration: none;   
+.group-icon {
+    position: relative;
+}
+
+.occ-more {
+    position: absolute;
+    top: 75px;
+    font-size: 1.4rem;
+    font-family: "Lato", sans-serif;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0,0,0,1);
 }
 
 .area-title {
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-decoration: none;  
     font-size: 1rem;
     font-family: "Lato", sans-serif;
     font-weight: bold;

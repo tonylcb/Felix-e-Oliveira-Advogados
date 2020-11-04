@@ -19,7 +19,15 @@
     border: 2px solid #be80a0;
 }
 
+.more-aan a:hover {
+    color: #be80a0;
+    background: rgb(220, 220, 220);
+} 
+
 .arrow-down2 {
+    transition-property: all;
+    transition-duration: .35s;
+    transition-timing-function: ease;
     /* margin-bottom: 10px; */
     fill: dimgray;
     border: 2px solid #be80a0;
@@ -30,9 +38,33 @@
 }
 
 .arrow-down2:hover {
+    fill: #be80a0;
+    background: rgb(220, 220, 220);
+}
+
+.googlemaps {
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+
+.googlemaps a {  
     transition-property: all;
     transition-duration: .35s;
     transition-timing-function: ease;
-    fill: #be80a0;
+    font-size: 1.1rem;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    color: dimgray; 
+    letter-spacing: 1.7px;
+    text-decoration: none;
+    padding: 10px 348.7965px 10px 348.7965px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+}
+
+.googlemaps a:hover {
+    color: #be80a0;
     background: rgb(220, 220, 220);
 }
